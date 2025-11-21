@@ -4,14 +4,14 @@
 Aplicación web que consulta el clima de diferentes ciudades utilizando la API de OpenWeatherMap. El proyecto demuestra el uso de peticiones HTTP con Fetch API, análisis de códigos de estado, tiempos de respuesta y políticas CORS.
 
 ## Características
-- ✅ Consulta del clima en tiempo real
-- ✅ Búsqueda por nombre de ciudad
-- ✅ Botones rápidos para ciudades principales
-- ✅ Registro detallado en consola (URL, método, tiempo, estado)
-- ✅ Análisis de headers (request/response)
-- ✅ Verificación de políticas CORS
-- ✅ Medición de tiempos de respuesta
-- ✅ Interfaz moderna y responsive
+-  Consulta del clima en tiempo real
+-  Búsqueda por nombre de ciudad
+-  Botones rápidos para ciudades principales
+-  Registro detallado en consola (URL, método, tiempo, estado)
+-  Análisis de headers (request/response)
+-  Verificación de políticas CORS
+-  Medición de tiempos de respuesta
+-  Interfaz moderna y responsive
 
 ## API Utilizada
 **OpenWeatherMap API**
@@ -74,8 +74,8 @@ Server: openresty
 La API de OpenWeatherMap implementa una política CORS permisiva:
 - **Access-Control-Allow-Origin**: `*` (permite cualquier origen)
 - **Access-Control-Allow-Methods**: GET, POST
-- ✅ Permite peticiones desde navegadores sin restricciones
-- ✅ Compatible con aplicaciones web frontend
+-  Permite peticiones desde navegadores sin restricciones
+-  Compatible con aplicaciones web frontend
 
 ## Tecnologías Utilizadas
 - HTML5
@@ -106,17 +106,17 @@ python -m http.server 8000
 4. **Pestaña Console**: Ver logs detallados de cada petición
 5. **Pestaña Network**: Analizar headers, timing, y response
 
-## 📷 Evidencias en Developer Tools
+## Evidencias en Developer Tools
 
 ### Console Tab muestra:
-- ✅ URL completa de la API
-- ✅ Método HTTP (GET)
-- ✅ Tiempo de respuesta en milisegundos
-- ✅ Código de estado HTTP
-- ✅ Request headers
-- ✅ Response headers
-- ✅ Análisis CORS en formato tabla
-- ✅ Datos JSON recibidos
+-  URL completa de la API
+-  Método HTTP (GET)
+-  Tiempo de respuesta en milisegundos
+-  Código de estado HTTP
+-  Request headers
+-  Response headers
+-  Análisis CORS en formato tabla
+-  Datos JSON recibidos
 
 ### Network Tab muestra:
 - Headers completos (General, Request, Response)
@@ -138,15 +138,15 @@ python -m http.server 8000
 - **401 Unauthorized**: API Key inválida (no aplica con la key pública)
 
 ### Manejo de Errores
-- ✅ Validación de input vacío
-- ✅ Manejo de ciudades no encontradas
-- ✅ Mensajes de error descriptivos
-- ✅ Tiempo de error registrado
+-  Validación de input vacío
+-  Manejo de ciudades no encontradas
+-  Mensajes de error descriptivos
+-  Tiempo de error registrado
 
 ### Políticas CORS
-- ✅ API con CORS habilitado para todos los orígenes
-- ✅ No requiere configuración adicional
-- ✅ Compatible con desarrollo local
+-  API con CORS habilitado para todos los orígenes
+-  No requiere configuración adicional
+-  Compatible con desarrollo local
 
 ## Estructura del Proyecto
 ```
